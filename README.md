@@ -11,8 +11,9 @@ This is a personal website built using React and Vite. It includes information a
 ```bash
 npm install
 npm run dev
+```
+### Tech Stack
 
-Tech Stack
 - React
 - Vite
 - JavaScript
