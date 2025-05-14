@@ -17,4 +17,5 @@ npm run dev
 - React
 - Vite
 - JavaScript
+- HTML
 - CSS
