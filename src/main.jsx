@@ -5,11 +5,13 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home.jsx';
 import About from './components/About.jsx';
+import Portfolio from './components/portfolio.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar/>
     <Home/>
     <About/>
+    <Portfolio/>
   </StrictMode>,
 )
