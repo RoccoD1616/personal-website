@@ -5,13 +5,15 @@ const workExperience = [
     title: "Technology Operator",
     date: "April 2025 – Present",
     company: "Britnell Ventures Inc.",
-    description: "As an intern at Britnell, I work on developing software systems that aim to enhance workplace efficiency by optimizing internal systems and workflows. As someone who is passionate about software development, I’m thrilled to have the opportunity to contribute toward meaningful, real-world solutions."
+    description: "As an intern at Britnell, I work on developing software systems that aim to enhance workplace efficiency by optimizing internal systems and workflows. As someone who is passionate about software development, I’m thrilled to have the opportunity to contribute toward meaningful, real-world solutions.",
+    website: "https://www.britnell.com"
   },
   {
     title: "Web Developer / Social Media Marketer / I.T Support",
     date: "Sept 2022 - Jan 2024",
     company: "Wellspace MD",
-    description: "As a part of my high school co-op placement, I developed Wellspace's website, designed posts for their social media platforms, and provided the clinic with I.T. needs around the office."
+    description: "As a part of my high school co-op placement, I developed Wellspace's website, designed posts for their social media platforms, and provided the clinic with I.T. needs around the office.",
+    website: "https://wellspacemdfamilypractice.com"
   }
 ];
 
@@ -44,7 +46,9 @@ function Portfolio() {
             </div>
         
             <div className="company-and-description">
-              <h3 style={{ color: "black", textAlign: "left" }}>{item.company}</h3>
+            <a className="company-link" href={item.website} target="_blank" rel="noopener noreferrer">
+              <h3 className="company-name">{item.company}</h3>
+            </a>
               <h4 style={{ color: "black", textAlign: "left" }}>{item.description}</h4>
             </div>
           </div>
@@ -67,7 +71,7 @@ function Portfolio() {
             </div>
         
             <div className="company-and-description">
-              <h3 style={{ color: "black", textAlign: "left" }}>{item.school}</h3>
+              <h3 style={{ color: "rgb(255, 153, 51)", textAlign: "left" }}>{item.school}</h3>
               <h4 style={{ color: "black", textAlign: "left" }}>{item.description}</h4>
             </div>
           </div>
