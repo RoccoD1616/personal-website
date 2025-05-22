@@ -69,8 +69,3 @@
     text-align: center;
     transition: background-color 0.2s ease;
 }
-  
-.card-list h4:hover {
-    background-color: rgb(255, 153, 51);
-    color: black;
-}
