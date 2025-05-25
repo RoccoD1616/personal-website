@@ -31,7 +31,7 @@
 }
 
 .description a h3 {
-    transition: color 0.3s ease, font-size 0.3s ease;
+    transition: color 0.2s ease, font-size 0.2s ease;
 }
 
 .description a h3:hover {
