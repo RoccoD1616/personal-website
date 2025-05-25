@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import Portfolio from './components/portfolio.jsx';
+import Activities from './components/Activities.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,5 +14,6 @@ createRoot(document.getElementById('root')).render(
     <Home/>
     <About/>
     <Portfolio/>
+    <Activities/>
   </StrictMode>,
 )
