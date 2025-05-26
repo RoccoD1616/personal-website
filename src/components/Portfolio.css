@@ -43,11 +43,12 @@
 }
   
 .company-link .company-name {
-    color: rgb(255, 153, 51);
-    transition: color 0.2s ease;
+    color: black;
     text-align: left;
+    transition: color 0.2s ease, font-size 0.2s ease;
 }
   
 .company-link:hover .company-name {
-    color: black;
+    color: rgb(255, 153, 51);
+    font-size: 27px;
 }
