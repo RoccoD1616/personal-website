@@ -71,7 +71,7 @@ function Portfolio() {
             </div>
         
             <div className="company-and-description">
-              <h3 style={{ color: "rgb(255, 153, 51)", textAlign: "left" }}>{item.school}</h3>
+              <h3 style={{ color: "black", textAlign: "left" }}>{item.school}</h3>
               <h4 style={{ color: "black", textAlign: "left" }}>{item.description}</h4>
             </div>
           </div>
