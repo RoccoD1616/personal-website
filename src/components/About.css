@@ -10,7 +10,7 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
-    margin: 0 400px;
+    margin: 0 250px;
 }
 
 .headshot img{
@@ -25,7 +25,7 @@
 .skills-and-interests {
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 40px;
     padding: 40px 60px;
     flex-wrap: wrap;
 }

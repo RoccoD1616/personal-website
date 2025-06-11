@@ -32,6 +32,7 @@ function About() {
                         <h4>TypeScript</h4>
                         <h4>PHP</h4>
                         <h4>ReactJS</h4>
+                        <h4>Flask</h4>
                         <h4>GitHub</h4>
                     </div>
                 </div>
