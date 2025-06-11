@@ -1,0 +1,66 @@
+.about-container {
+    min-height: 120vh;
+    width: 100vw;
+    background-color: rgb(25, 25, 25);
+    padding-top: 10px;
+}
+
+.about-me {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 400px;
+}
+
+.headshot img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 153, 51);
+    object-fit: cover;
+    object-position: top center;
+}
+
+.skills-and-interests {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 40px 60px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(30, 30, 30);
+    padding: 25px 30px;
+    border-radius: 12px;
+    border: 1px solid rgb(255, 153, 51);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    min-width: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    color: rgb(255, 153, 51);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px 20px;
+}
+
+.card-list h4 {
+    margin: 0;
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
