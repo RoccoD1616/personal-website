@@ -19,7 +19,7 @@
     height: 200px;
     width: 300px;
     background-color: white;
-    object-fit: fit;
+    object-fit: cover;
     transition: transform 0.2s ease;
 }
 

@@ -1,0 +1,39 @@
+.contact-container {
+    min-height: 70vh;
+    width: 100vw;
+    background-color: rgb(25, 25, 25);
+    padding-top: 10px;
+}
+
+.contacts {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.layout h3 {
+    font-size: 20px;
+    color: rgb(255, 153, 51);
+}
+
+.layout h4 {
+    font-size: 16px;
+}
+
+img {
+    height: 30px;
+    transition: transform 0.2s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
