@@ -28,8 +28,8 @@ const education = [
 
 function Portfolio() {
   return (
-    <div className="portfolio-container" style={{ marginBottom: "50px" }}>
-      <h2 style={{ color: "rgb(255, 153, 51)", lineHeight: "20px", marginTop: "30px" }}>Portfolio</h2>
+    <div className="portfolio-container" id="portfolio" style={{ marginBottom: "50px" }}>
+      <h2 style={{ color: "rgb(255, 153, 51)", lineHeight: "20px", marginTop: "40px" }}>Portfolio</h2>
       <h3 style={{ fontSize: "40px", lineHeight: "0", marginBottom: "75px", color: "rgb(30, 30, 30)" }}>Work Experience</h3>
 
       <div className="timeline">

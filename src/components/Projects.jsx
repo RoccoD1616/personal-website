@@ -59,7 +59,7 @@ const projects = [
 
 function Projects() {
     return (
-        <div className="projects-container">
+        <div className="projects-container" id="projects">
             <h2 style={{ color: "rgb(255, 153, 51)", lineHeight: "20px", marginTop: "30px" }}>Projects</h2>
             <h3 style={{ color: "black", fontSize: "40px", lineHeight: "0", marginBottom: "100px" }}>Explore My Work</h3>
 
