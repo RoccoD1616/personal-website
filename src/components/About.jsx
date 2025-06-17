@@ -3,7 +3,7 @@ import Headshot from "../assets/Headshot.jpeg";
 
 function About() {
     return (
-        <div className="about-container">
+        <div className="about-container" id="about">
             <h2 style={{ color: "rgb(255, 153, 51)", lineHeight: "20px", marginTop: "30px" }}>About</h2>
             <h3 style={{ fontSize: "40px", lineHeight: "0", marginBottom: "100px" }}>Let Me Introduce Myself</h3>
 

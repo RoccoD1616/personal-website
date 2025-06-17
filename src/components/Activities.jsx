@@ -6,7 +6,7 @@ import FIRST from "../assets/FIRST-Logo.png";
 
 function Activities() {
     return (
-        <div className="activities-container">
+        <div className="activities-container" id="activities">
             <h2 style={{ color: "rgb(255, 153, 51)", lineHeight: "20px", marginTop: "30px" }}>Activities</h2>
             <h3 style={{ fontSize: "40px", lineHeight: "0", marginBottom: "100px" }}>Clubs & Organizations</h3>
         

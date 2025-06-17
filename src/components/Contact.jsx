@@ -39,7 +39,7 @@ const contacts = [
 
 function Contact() {
     return (
-        <div className="contact-container">
+        <div className="contact-container" id="contact">
             <h2 style={{ color: "rgb(255, 153, 51)", lineHeight: "20px", marginTop: "30px" }}>Contact</h2>
             <h3 style={{ color: "white", fontSize: "40px", lineHeight: "0", marginBottom: "120px" }}>Let's Get In Touch</h3>
 

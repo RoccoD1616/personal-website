@@ -5,7 +5,7 @@ import Mail_Icon from "../assets/Mail-Icon.png";
 
 function Home() {
     return (
-    <div className="home-container">
+    <div className="home-container" id="home">
         <h1 style={{ lineHeight: "0", textShadow: "1px 1px 3px rgba(0, 0, 0, 0.5)" }}>Rocco DeStefano</h1>
         <h3 style={{ lineHeight: "0", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}>Computer Science Student Specializing in Software Design</h3>
         
