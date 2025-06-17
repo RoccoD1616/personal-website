@@ -3,6 +3,8 @@ import "./Projects.css";
 import PersonalWebsite from "../assets/Personal-Website.png";
 import NumNum from "../assets/NumNum.jpeg";
 import StudentBT from "../assets/Student-BT.jpg";
+import IsabelBalderClub from "../assets/Isabel-Balder-Club.png";
+import Britnell from "../assets/Britnell-Logo.png";
 
 const projects = [
     {
@@ -28,6 +30,30 @@ const projects = [
         technologies: ["HTML", "CSS", "JavaScript", "ReactJS"],
         link: "https://github.com/Queens-ESSDEV/Student-BST",
         alt: "Student Buy & Trade"
+    },
+    {
+        title: "Isabel Balder Club",
+        image: IsabelBalderClub,
+        description: "Working with my QWEB team to develop a website for local theatre club at Queen's University.",
+        technologies: ["HTML", "CSS", "TypeScript", "ReactJS"],
+        link: "https://github.com/queens-web-development-club/ws25t01-isabeltheatreclub",
+        alt: "Isabel Balder Club"
+    },
+    {
+        title: "Warehouse Optimizer",
+        image: Britnell,
+        description: "Developed a warehouse inventory optimization system using a frequency-based algorithm to analyze order quantities and improve item placement.",
+        technologies: ["HTML", "CSS", "JavaScript", "Python", "ReactJS"],
+        link: "javascript:void(0)",
+        alt: "Warehouse Optimizer"
+    },
+    {
+        title: "NSS Generator",
+        image: Britnell,
+        description: "Built an automated system to generate sales metrics and monitor warehouse performance using API's.",
+        technologies: ["Python"],
+        link: "javascript:void(0)",
+        alt: "NSS Generator"
     }
   ];
 
@@ -41,9 +67,11 @@ function Projects() {
                 {projects.map((item, index) => (
                     <div className="tiles">
                         <h3>{item.title}</h3>
-                        <a href={item.link} target="_blank" rel="noopener noreferrer">
-                            <img src={item.image} alt={item.alt}/>
-                        </a>
+                        <div className="project-image">
+    <a href={item.link} target="_blank" rel="noopener noreferrer">
+        <img src={item.image} alt={item.alt}/>
+    </a>
+</div>
                         <h4>{item.description}</h4>
                         <div className="tile-list">
                             {item.technologies.map((tech, i) => (
