@@ -67,11 +67,9 @@ function Projects() {
                 {projects.map((item, index) => (
                     <div className="tiles">
                         <h3>{item.title}</h3>
-                        <div className="project-image">
-    <a href={item.link} target="_blank" rel="noopener noreferrer">
-        <img src={item.image} alt={item.alt}/>
-    </a>
-</div>
+                        <a href={item.link} target="_blank" rel="noopener noreferrer">
+                            <img src={item.image} alt={item.alt}/>
+                        </a>
                         <h4>{item.description}</h4>
                         <div className="tile-list">
                             {item.technologies.map((tech, i) => (

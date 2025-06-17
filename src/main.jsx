@@ -8,6 +8,7 @@ import About from './components/About.jsx';
 import Portfolio from './components/portfolio.jsx';
 import Activities from './components/Activities.jsx';
 import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,5 +18,6 @@ createRoot(document.getElementById('root')).render(
     <Portfolio/>
     <Activities/>
     <Projects/>
+    <Contact/>
   </StrictMode>,
 )
