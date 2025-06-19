@@ -37,3 +37,16 @@ img {
 img:hover {
     transform: scale(1.1);
 }
+
+a {
+    text-decoration: none;
+}
+
+.layout a h4 {
+    transition: color 0.2s ease, font-size 0.2s ease;
+}
+
+.layout a h4:hover {
+    color: rgb(255, 153, 51);
+    font-size: 17px;
+}
