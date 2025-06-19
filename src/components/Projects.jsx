@@ -11,7 +11,7 @@ const projects = [
         title: "Personal Website",
         image: PersonalWebsite,
         description: "Created my own personal website where others can learn about me, my experiences, and the skills that I've developed.",
-        technologies: ["HTML", "CSS", "ReactJS"],
+        technologies: ["HTML", "CSS", "JavaScript", "ReactJS"],
         link: "https://github.com/RoccoD1616/personal-website",
         alt: "Rocco DeStefano's Personal Website"
     },
@@ -43,7 +43,7 @@ const projects = [
         title: "Warehouse Optimizer",
         image: Britnell,
         description: "Developed a warehouse inventory optimization system using a frequency-based algorithm to analyze order quantities and improve item placement.",
-        technologies: ["HTML", "CSS", "JavaScript", "Python", "ReactJS"],
+        technologies: ["HTML", "CSS", "JavaScript", "Python", "SQL ", "ReactJS"],
         link: "javascript:void(0)",
         alt: "Warehouse Optimizer"
     },
@@ -51,7 +51,7 @@ const projects = [
         title: "NSS Generator",
         image: Britnell,
         description: "Built an automated system to generate sales metrics and monitor warehouse performance using API's.",
-        technologies: ["Python"],
+        technologies: ["Python", "SQL "],
         link: "javascript:void(0)",
         alt: "NSS Generator"
     }
