@@ -50,7 +50,9 @@ function Contact() {
                         <a href={item.link} target="_blank" rel="noopener noreferrer">
                             <img src={item.image} alt={item.alt}/>
                         </a>
-                        <h4>{item.info}</h4>
+                        <a href={item.link} target="_blank" rel="noopener noreferrer">
+                            <h4>{item.info}</h4>
+                        </a>
                     </div>
                 ))}
             </div>
