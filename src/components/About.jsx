@@ -1,5 +1,5 @@
 import "./About.css";
-import Headshot from "../assets/Headshot.jpeg";
+import Headshot from "../assets/Rocco-DeStefano.png";
 
 function About() {
     return (
