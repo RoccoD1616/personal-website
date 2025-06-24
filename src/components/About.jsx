@@ -9,7 +9,10 @@ function About() {
 
             <div className="about-me">
                 <div className="headshot">
-                    <img src={Headshot} alt="Rocco DeStefano" style= {{ marginBottom: "30px" }}/>
+                    <a href="https://www.linkedin.com/in/rocco-destefano-908a7932a/" target="_blank" rel="noopener noreferrer">
+                        <img src={Headshot} alt="Rocco DeStefano" style= {{ marginBottom: "30px" }}/>
+                    </a>
+                    
                 </div>
                 <h4 style= {{ marginBottom: "60px" }}>As a computer science student at Queen's University, I am eager to work with likeminded
                     individuals and expand my coding knowledge and skills beyond the classroom.
