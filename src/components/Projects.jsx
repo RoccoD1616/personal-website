@@ -50,10 +50,18 @@ const projects = [
     {
         title: "NSS Generator",
         image: Britnell,
-        description: "Built an automated system to generate sales metrics and monitor warehouse performance using API's.",
+        description: "Built an automated system to generate sales metrics and monitor warehouse performance using APIs.",
         technologies: ["Python", "SQL "],
         link: "javascript:void(0)",
         alt: "NSS Generator"
+    },
+    {
+        title: "NSS Report Automator",
+        image: Britnell,
+        description: "Developed an automated system that calculates daily sales and sends summary reports via email using APs.",
+        technologies: ["Python", "SQL "],
+        link: "javascript:void(0)",
+        alt: "NSS Report Automator"
     }
   ];
 
