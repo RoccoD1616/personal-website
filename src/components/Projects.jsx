@@ -58,7 +58,7 @@ const projects = [
     {
         title: "NSS Report Automator",
         image: Britnell,
-        description: "Developed an automated system that calculates daily sales and sends summary reports via email using APs.",
+        description: "Developed an automated system that calculates daily sales and sends summary reports via email using APIs.",
         technologies: ["Python", "SQL "],
         link: "javascript:void(0)",
         alt: "NSS Report Automator"

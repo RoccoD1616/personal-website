@@ -5,7 +5,7 @@ const workExperience = [
     title: "Technology Operator",
     date: "April 2025 – Present",
     company: "Britnell Ventures Inc.",
-    description: "As an intern at Britnell, I work on developing software systems that aim to enhance workplace efficiency by optimizing internal systems and workflows. As someone who is passionate about software development, I’m thrilled to have the opportunity to contribute toward meaningful, real-world solutions.",
+    description: "As an intern at Britnell, I work on developing software systems that aim to enhance workplace efficiency by optimizing internal systems and workflows. I collaborate closely with different departments to understand their needs in order to create tools that streamline repetitive tasks and improve data accessibility. By automating key functions and improving internal tools, my role helps other divisions work more effectively and productively.",
     website: "https://www.britnell.com"
   },
   {
@@ -19,10 +19,10 @@ const workExperience = [
 
 const education = [
   {
-    degree: "Bachelor of Computing (Honours)",
+    degree: "Bachelor of Computing (Honours), Specialization - Software Design",
     date: "Sept 2024 – June 2028",
     school: "Queen's University",
-    description: "As a Computing student specializing in Software Design at Queen’s University, I am learning the fundamentals of programming as well as many of the advanced principles of computing"
+    description: "As a Computing student specializing in Software Design at Queen’s University, I am learning the fundamentals of programming as well as many of the advanced principles of computing."
   }
 ]
 

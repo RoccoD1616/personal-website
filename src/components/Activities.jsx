@@ -33,8 +33,7 @@ function Activities() {
                         <h3 style={{lineHeight: "0" }}>Queen’s Web Development Team</h3>
                     </a>
                     <h3 style={{ fontSize: "20px" }}>Web Developer | Sept 2024 - Present</h3>
-                    <h4>As a web developer on QWEB, I use HTML, CSS, JavaScript, and other various technologies in order to develop websites.
-                        I also work with other members of QWEB to develop websites for client businesses.
+                    <h4>As a web developer on QWEB, I design and build websites while collaborating with team members to deliver custom web platforms for client businesses.
                     </h4>
                 </div>
                 <a href="https://www.qweb.dev" target="_blank" rel="noopener noreferrer">
