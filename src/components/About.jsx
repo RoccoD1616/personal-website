@@ -4,13 +4,13 @@ import Headshot from "../assets/Rocco-DeStefano.png";
 function About() {
     return (
         <div className="about-container" id="about">
-            <h2 style={{ color: "rgb(255, 153, 51)", lineHeight: "20px", marginTop: "30px" }}>About</h2>
-            <h3 style={{ fontSize: "40px", lineHeight: "0", marginBottom: "100px" }}>Let Me Introduce Myself</h3>
+            <h2 className="title">About</h2>
+            <h3 className="description">Let Me Introduce Myself</h3>
 
             <div className="about-me">
                 <div className="headshot">
                     <a href="https://www.linkedin.com/in/rocco-destefano-908a7932a/" target="_blank" rel="noopener noreferrer">
-                        <img src={Headshot} alt="Rocco DeStefano" style= {{ marginBottom: "30px" }}/>
+                        <img src={Headshot} alt="Rocco DeStefano"/>
                     </a>
                 </div>
                 <h4 style= {{ marginBottom: "60px" }}>As a computer science student at Queen's University, I am eager to work with likeminded

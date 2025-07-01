@@ -1,5 +1,5 @@
 .activities-container {
-    min-height: 120vh;
+    min-height: 240vh;
     width: 100vw;
     background-color: rgb(80, 80, 80);
     padding-top: 10px;
@@ -11,6 +11,18 @@
     justify-content: center;
     align-items: center;
     margin: 0 200px;
+}
+
+.activities-container h2.title {
+    color: rgb(255, 153, 51);
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.activities-container h3.description {
+    font-size: 40px;
+    margin-bottom: 100px;
+    line-height: 0;
 }
 
 .activities img{
@@ -37,4 +49,37 @@
 .description a h3:hover {
     color: rgb(255, 153, 51);
     font-size: 27px;
+}
+
+@media (max-width: 600px) {
+    .activities-container h2.title {
+        font-size: 20px;
+    }
+    
+    .activities-container h3.description {
+        font-size: 25px;
+        margin-bottom: 75px;
+    }
+
+    .activities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 50px;
+        padding-bottom: 0;
+    }
+
+    .activities > a {
+        order: -1;
+    }
+
+    .activities img {
+        height: 200px;
+        width: 200px;
+        margin-bottom: -110px;
+    }
+
+    .description {
+        margin-bottom: 50px;
+    }
 }

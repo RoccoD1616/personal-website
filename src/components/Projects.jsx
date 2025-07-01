@@ -68,8 +68,8 @@ const projects = [
 function Projects() {
     return (
         <div className="projects-container" id="projects">
-            <h2 style={{ color: "rgb(255, 153, 51)", lineHeight: "20px", marginTop: "30px" }}>Projects</h2>
-            <h3 style={{ color: "black", fontSize: "40px", lineHeight: "0", marginBottom: "100px" }}>Explore My Work</h3>
+            <h2 className="title">Projects</h2>
+            <h3 className="description">Explore My Work</h3>
 
             <div className="projects">
                 {projects.map((item, index) => (

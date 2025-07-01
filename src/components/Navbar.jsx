@@ -18,7 +18,7 @@ function Navbar() {
     const target = document.getElementById(targetId);
     if (!target) return;
   
-    const navbarOffset = 60; // Adjust if your navbar height is different
+    const navbarOffset = 60;
     const targetY = target.offsetTop - navbarOffset;
     const startY = window.scrollY;
     const distance = targetY - startY;

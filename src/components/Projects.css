@@ -15,6 +15,19 @@
     margin: 0 auto;
 }
 
+.projects-container h2.title {
+    color: rgb(255, 153, 51);
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.projects-container h3.description {
+    color: black;
+    font-size: 40px;
+    line-height: 0;
+    margin-bottom: 100px;
+}
+
 .projects img{
     height: 200px;
     width: 300px;
@@ -72,4 +85,19 @@
     font-weight: 400;
     text-align: center;
     transition: background-color 0.2s ease;
+}
+
+@media (max-width: 600px) {
+    .projects {
+        margin: 20px
+    }
+
+    .projects-container h2.title {
+        font-size: 20px;
+    }
+    
+    .projects-container h3.description {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
 }

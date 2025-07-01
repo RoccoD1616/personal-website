@@ -29,8 +29,8 @@ const education = [
 function Portfolio() {
   return (
     <div className="portfolio-container" id="portfolio" style={{ marginBottom: "50px" }}>
-      <h2 style={{ color: "rgb(255, 153, 51)", lineHeight: "20px", marginTop: "40px" }}>Portfolio</h2>
-      <h3 style={{ fontSize: "40px", lineHeight: "0", marginBottom: "75px", color: "rgb(30, 30, 30)" }}>Work Experience</h3>
+      <h2 className="title">Portfolio</h2>
+      <h3 className="description">Work Experience</h3>
 
       <div className="timeline">
         {workExperience.map((item, index) => (
@@ -56,7 +56,7 @@ function Portfolio() {
         ))}
       </div>
 
-      <h3 style={{ fontSize: "40px", lineHeight: "0", marginTop: "75px", marginBottom: "75px", color: "rgb(30, 30, 30)" }}>Education</h3>
+      <h3 className="education">Education</h3>
       <div className="timeline">
         {education.map((item, index) => (
           <div className="timeline-entry" key={index}>
@@ -66,11 +66,11 @@ function Portfolio() {
               <h4 style={{ color: "black" }}>{item.date}</h4>
             </div>
         
-            <div className="border">
+            <div className="education-border">
               <div className="dot"></div>
             </div>
         
-            <div className="company-and-description">
+            <div className="education-and-description">
               <h3 style={{ color: "black", textAlign: "left" }}>{item.school}</h3>
               <h4 style={{ color: "black", textAlign: "left" }}>{item.description}</h4>
             </div>
