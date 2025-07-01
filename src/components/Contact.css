@@ -13,6 +13,19 @@
     margin: 0 auto;
 }
 
+.contact-container h2.title {
+    color: rgb(255, 153, 51);
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.contact-container h3.description {
+    color: white;
+    font-size: 40px;
+    line-height: 0;
+    margin-bottom: 120px;
+}
+
 .layout {
     display: flex;
     flex-direction: column;
@@ -49,4 +62,29 @@ a {
 .layout a h4:hover {
     color: rgb(255, 153, 51);
     font-size: 17px;
+}
+
+@media (max-width: 600px) {    
+    .contact-container {
+        min-height: 130vh;
+    }
+    
+    .contact-container h2.title {
+        font-size: 20px;
+    }
+    
+    .contact-container h3.description {
+        font-size: 25px;
+        margin-bottom: 75px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .layout {
+        margin-bottom: -75px;
+    }
 }
