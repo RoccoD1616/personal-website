@@ -62,6 +62,14 @@ const projects = [
         technologies: ["Python", "SQL "],
         link: "javascript:void(0)",
         alt: "NSS Report Automator"
+    },
+    {
+        title: "Backup Delete Automator",
+        image: Britnell,
+        description: "Implemented a storage management system that optimizes server capacity by automatically removing outdated backups.",
+        technologies: ["Python"],
+        link: "javascript:void(0)",
+        alt: "Backup Delete Automator"
     }
   ];
 
