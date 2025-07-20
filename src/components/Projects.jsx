@@ -51,7 +51,7 @@ const projects = [
         title: "NSS Generator",
         image: Britnell,
         description: "Built an automated system to generate sales metrics and monitor warehouse performance using APIs.",
-        technologies: ["Python", "SQL "],
+        technologies: ["Python", "SQL"],
         link: "javascript:void(0)",
         alt: "NSS Generator"
     },
@@ -59,7 +59,7 @@ const projects = [
         title: "NSS Report Automator",
         image: Britnell,
         description: "Developed an automated system that calculates daily sales and sends summary reports via email using APIs.",
-        technologies: ["Python", "SQL "],
+        technologies: ["Python", "SQL"],
         link: "javascript:void(0)",
         alt: "NSS Report Automator"
     },
@@ -68,6 +68,14 @@ const projects = [
         image: Britnell,
         description: "Implemented a storage management system that optimizes server capacity by automatically removing outdated backups.",
         technologies: ["Python"],
+        link: "javascript:void(0)",
+        alt: "Backup Delete Automator"
+    },
+    {
+        title: "Pending & Partial Automator",
+        image: Britnell,
+        description: "Built an automated system that emails customers regarding their pending orders and ETAs and logs all order data into internal company records.",
+        technologies: ["Python", "SQL"],
         link: "javascript:void(0)",
         alt: "Backup Delete Automator"
     }
