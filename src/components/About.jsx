@@ -13,7 +13,7 @@ function About() {
                         <img src={Headshot} alt="Rocco DeStefano"/>
                     </a>
                 </div>
-                <h4 style= {{ marginBottom: "60px" }}>As a computer science student at Queen's University, I am eager to work with likeminded
+                <h4 style= {{ marginBottom: "60px" }}>As a Computing student at Queen's University, I am eager to work with likeminded
                     individuals and expand my coding knowledge and skills beyond the classroom.
                     I am hoping to contribute towards meaningful projects and express my passion
                     and creativity for programming.
