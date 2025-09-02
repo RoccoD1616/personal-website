@@ -11,7 +11,7 @@ function Home() {
         </h1>
 
         <h3 className="tagline" style={{ textShadow: "2px 2px 4px rgba(0,0,0,.5)" }}>
-            Computing Student at Queen's University Specializing in Software Design
+            Computer Science Student at Queen's University Specializing in Software Design
         </h3>
         
         <div className="icons">
