@@ -41,7 +41,7 @@ const projects = [
         alt: "Student Buy & Trade"
     },
     {
-        title: "Isabel Balder Club",
+        title: "Isabel Balder Club Website",
         image: IsabelBalderClub,
         description: "Working with my QWEB team to develop a website for local theatre club at Queen's University.",
         technologies: ["HTML", "CSS", "TypeScript", "ReactJS"],
