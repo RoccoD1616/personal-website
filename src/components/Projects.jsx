@@ -20,7 +20,7 @@ const projects = [
         title: "Room Booking",
         image: RoomBooking,
         description: "A room booking platform that allows CS students at Queen's to reserve study rooms.",
-        technologies: ["Next.js", "JavaScript", "TypeScript", "Resend"],
+        technologies: ["NextJS", "JavaScript", "TypeScript", "Resend"],
         link: "https://compsa.ca/room-booking",
         alt: "Room Booking"
     },

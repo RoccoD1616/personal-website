@@ -33,8 +33,9 @@ function About() {
                         <h4>JavaScript</h4>
                         <h4>TypeScript</h4>
                         <h4>PHP</h4>
+                        <h4>SQL</h4>
                         <h4>ReactJS</h4>
-                        <h4>Flask</h4>
+                        <h4>NextJS</h4>
                         <h4>GitHub</h4>
                     </div>
                 </div>
@@ -53,6 +54,7 @@ function About() {
                         <h4>Web Development</h4>
                         <h4>Robotics</h4>
                         <h4>Artificial Intelligence (AI)</h4>
+                        <h4>Automation</h4>
                         <h4>Data Structures</h4>
                         <h4>Algorithms</h4>
                     </div>
