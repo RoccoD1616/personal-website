@@ -1,6 +1,7 @@
 import "./Projects.css";
 
 import PersonalWebsite from "../assets/Personal-Website.png";
+import RoomBooking from "../assets/Room-Booking.png";
 import NumNum from "../assets/NumNum.jpeg";
 import StudentBT from "../assets/Student-BT.jpg";
 import IsabelBalderClub from "../assets/Isabel-Balder-Club.png";
@@ -14,6 +15,14 @@ const projects = [
         technologies: ["HTML", "CSS", "JavaScript", "ReactJS"],
         link: "https://github.com/RoccoD1616/personal-website",
         alt: "Rocco DeStefano's Personal Website"
+    },
+    {
+        title: "Room Booking",
+        image: RoomBooking,
+        description: "A room booking platform that allows CS students at Queen's to reserve study rooms.",
+        technologies: ["Next.js", "JavaScript", "TypeScript", "Resend"],
+        link: "https://compsa.ca/room-booking",
+        alt: "Room Booking"
     },
     {
         title: "NumNum",
