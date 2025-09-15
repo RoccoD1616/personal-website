@@ -31,7 +31,7 @@ function Activities() {
                     <a href="https://www.engsoc.queensu.ca" target="_blank" rel="noopener noreferrer">
                         <h3>Queen’s Engineering Society</h3>
                     </a>
-                    <h3 style={{ fontSize: "20px" }}>Software Developer | Oct 2024 - Present</h3>
+                    <h3 style={{ fontSize: "20px" }}>Software Developer | Oct 2024 - April 2025</h3>
                     <h4>As a software developer on ESSDEV, I work with other members of our team in
                         order to build software projects that aim to solve real world problems within our community.
                         Through ESSDEV, I have been able to further develop my programming and teamwork skills while
@@ -51,7 +51,7 @@ function Activities() {
                     <a href="https://www.qweb.dev" target="_blank" rel="noopener noreferrer">
                         <h3>Queen’s Web Development Team</h3>
                     </a>
-                    <h3 style={{ fontSize: "20px" }}>Web Developer | Sept 2024 - Present</h3>
+                    <h3 style={{ fontSize: "20px" }}>Web Developer | Sept 2024 - April 2025</h3>
                     <h4>As a web developer on QWEB, I design and build websites while collaborating with team members to deliver custom web platforms for client businesses.
                     </h4>
                 </div>
@@ -62,7 +62,7 @@ function Activities() {
                     <a href="https://www.qfsae.ca" target="_blank" rel="noopener noreferrer">
                         <h3>Queen’s Racing</h3>
                     </a>
-                    <h3 style={{ fontSize: "20px" }}>Electrical Member / Programmer | Sept 2024 - Present</h3>
+                    <h3 style={{ fontSize: "20px" }}>Electrical Member / Programmer | Sept 2024 - April 2025</h3>
                     <h4>As a programmer on the electrical sub-team, I work on developing code for the various electrical components and systems within our car.
                         This experience combines programming and engineering concepts into a large-scale group-based project.
                     </h4>
