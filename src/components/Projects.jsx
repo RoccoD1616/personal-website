@@ -1,6 +1,7 @@
 import "./Projects.css";
 
 import PersonalWebsite from "../assets/Personal-Website.png";
+import CompsaApp from "../assets/COMPSA-App.jpg";
 import RoomBooking from "../assets/Room-Booking.png";
 import NumNum from "../assets/NumNum.jpeg";
 import StudentBT from "../assets/Student-BT.jpg";
@@ -17,9 +18,17 @@ const projects = [
         alt: "Rocco DeStefano's Personal Website"
     },
     {
+        title: "COMPSA App",
+        image: CompsaApp,
+        description: "The official mobile application for Queen's COMPSA  that allows students to access club information, events, and resources.",
+        technologies: ["React Native", "TypeScript"],
+        link: "javascript:void(0)",
+        alt: "COMPSA App"
+    },
+    {
         title: "Room Booking",
         image: RoomBooking,
-        description: "A room booking platform that allows CS students at Queen's to reserve study rooms.",
+        description: "A room booking platform that allows CS students at Queen's to reserve study rooms through COMPSA's website.",
         technologies: ["NextJS", "JavaScript", "TypeScript", "Resend"],
         link: "https://compsa.ca/room-booking",
         alt: "Room Booking"
@@ -35,7 +44,7 @@ const projects = [
     {
         title: "Student Buy & Trade",
         image: StudentBT,
-        description: "Working with my ESSDEV team to develop a platform where students can easily buy, sell, trade, and donate school items.",
+        description: "Worked with my ESSDEV team to develop a platform where students can easily buy, sell, trade, and donate school items.",
         technologies: ["HTML", "CSS", "JavaScript", "ReactJS"],
         link: "https://github.com/Queens-ESSDEV/Student-BST",
         alt: "Student Buy & Trade"
@@ -43,7 +52,7 @@ const projects = [
     {
         title: "Isabel Balder Club Website",
         image: IsabelBalderClub,
-        description: "Working with my QWEB team to develop a website for local theatre club at Queen's University.",
+        description: "Worked with my QWEB team to develop a website for local theatre club at Queen's University.",
         technologies: ["HTML", "CSS", "TypeScript", "ReactJS"],
         link: "https://github.com/queens-web-development-club/ws25t01-isabeltheatreclub",
         alt: "Isabel Balder Club"
