@@ -35,6 +35,7 @@ function About() {
                         <h4>PHP</h4>
                         <h4>SQL</h4>
                         <h4>ReactJS</h4>
+                        <h4>React Native</h4>
                         <h4>NextJS</h4>
                         <h4>GitHub</h4>
                     </div>
