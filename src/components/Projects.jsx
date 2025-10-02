@@ -22,7 +22,7 @@ const projects = [
         image: CompsaApp,
         description: "The official mobile application for Queen's COMPSA  that allows students to access club information, events, and resources.",
         technologies: ["React Native", "TypeScript"],
-        link: "javascript:void(0)",
+        link: "https://github.com/compsa-tech-team/COMPSA-App/tree/main",
         alt: "COMPSA App"
     },
     {
