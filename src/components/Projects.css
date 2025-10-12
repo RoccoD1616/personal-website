@@ -33,11 +33,12 @@
     width: 300px;
     background-color: white;
     object-fit: cover;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, filter 0.2s ease;
 }
 
 .projects img:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
+    filter:brightness(50%);
 }
 
 .projects h3 {
