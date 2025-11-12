@@ -11,6 +11,7 @@ import Britnell from "../assets/Britnell-Logo.png";
 const projects = [
     {
         title: "Personal Website",
+        date: "07/2025",
         image: PersonalWebsite,
         description: "Created my own personal website where others can learn about me, my experiences, and the skills that I've developed.",
         technologies: ["HTML", "CSS", "JavaScript", "ReactJS"],
@@ -19,6 +20,7 @@ const projects = [
     },
     {
         title: "COMPSA App",
+        date: "In Progress",
         image: CompsaApp,
         description: "The official mobile application for Queen's COMPSA  that allows students to access club information, events, and resources.",
         technologies: ["React Native", "TypeScript"],
@@ -27,6 +29,7 @@ const projects = [
     },
     {
         title: "Room Booking",
+        date: "08/2025",
         image: RoomBooking,
         description: "A room booking platform that allows CS students at Queen's to reserve study rooms through COMPSA's website.",
         technologies: ["NextJS", "JavaScript", "TypeScript", "Resend"],
@@ -35,6 +38,7 @@ const projects = [
     },
     {
         title: "NumNum",
+        date: "02/2025",
         image: NumNum,
         description: "An AI powered dining app that recommends restaurant choices to users based on their preferences, such as location, dietary needs, cuisine, price range and much more.",
         technologies: ["Python", "Flask"],
@@ -43,6 +47,7 @@ const projects = [
     },
     {
         title: "Student Buy & Trade",
+        date: "04/2025",
         image: StudentBT,
         description: "Worked with my ESSDEV team to develop a platform where students can easily buy, sell, trade, and donate school items.",
         technologies: ["HTML", "CSS", "JavaScript", "ReactJS"],
@@ -51,6 +56,7 @@ const projects = [
     },
     {
         title: "Isabel Balder Club Website",
+        date: "04/2025",
         image: IsabelBalderClub,
         description: "Worked with my QWEB team to develop a website for local theatre club at Queen's University.",
         technologies: ["HTML", "CSS", "TypeScript", "ReactJS"],
@@ -59,6 +65,7 @@ const projects = [
     },
     {
         title: "Warehouse Optimizer",
+        date: "05/2025",
         image: Britnell,
         description: "Developed a warehouse inventory optimization system using a frequency-based algorithm to analyze order quantities and improve item placement.",
         technologies: ["HTML", "CSS", "JavaScript", "Python", "SQL ", "ReactJS"],
@@ -67,6 +74,7 @@ const projects = [
     },
     {
         title: "NSS Generator",
+        date: "06/2025",
         image: Britnell,
         description: "Built an automated system to generate sales metrics and monitor warehouse performance using APIs.",
         technologies: ["Python", "SQL"],
@@ -75,6 +83,7 @@ const projects = [
     },
     {
         title: "NSS Report Automator",
+        date: "07/2025",
         image: Britnell,
         description: "Developed an automated system that calculates daily sales and sends summary reports via email using APIs.",
         technologies: ["Python", "SQL"],
@@ -83,6 +92,7 @@ const projects = [
     },
     {
         title: "Backup Delete Automator",
+        date: "08/2025",
         image: Britnell,
         description: "Implemented a storage management system that optimizes server capacity by automatically removing outdated backups.",
         technologies: ["Python"],
@@ -91,6 +101,7 @@ const projects = [
     },
     {
         title: "Pending & Partial Automator",
+        date: "08/2025",
         image: Britnell,
         description: "Built an automated system that emails customers regarding their pending orders and ETAs and logs all order data into internal company records.",
         technologies: ["Python", "SQL"],
@@ -108,6 +119,7 @@ function Projects() {
             <div className="projects">
                 {projects.map((item, index) => (
                     <div className="tiles">
+                        <h4>{item.date}</h4>
                         <h3>{item.title}</h3>
                         <a href={item.link} target="_blank" rel="noopener noreferrer">
                             <img src={item.image} alt={item.alt}/>
