@@ -46,6 +46,10 @@
     transition: color 0.2s ease, font-size 0.2s ease;
 }
 
+.description h4 {
+    line-height: 1.5;
+}
+
 .description a h3:hover {
     color: rgb(255, 153, 51);
     font-size: 27px;

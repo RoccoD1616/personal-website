@@ -22,7 +22,11 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
-    margin: 0 250px;
+    margin: 0 300px;
+}
+
+.about-me h4 {
+    line-height: 1.5;
 }
 
 .headshot img{
@@ -63,7 +67,7 @@
 
 .card-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(2, 1fr); 
     gap: 10px 20px;
 }
 
@@ -76,6 +80,10 @@
     font-weight: 400;
     text-align: center;
     transition: background-color 0.2s ease;
+}
+
+.skill-list {
+    line-height: 120%;
 }
 
 @media (max-width: 600px) {
@@ -95,5 +103,8 @@
 
     .headshot img {
         margin-bottom: 0;
+    }
+    .card-list {
+        grid-template-columns: 1fr;
     }
 }

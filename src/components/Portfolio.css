@@ -32,11 +32,13 @@
 .company-and-description {
     flex: 1;
     text-align: left;
+    line-height: 1.5;
 }
 
 .education-and-description {
     flex: 1;
     text-align: left;
+    line-height: 1.5;
 }
 
 .border, .education-border {

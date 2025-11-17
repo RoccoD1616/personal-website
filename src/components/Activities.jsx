@@ -20,9 +20,7 @@ function Activities() {
                         <h3>Queen's Computing Students' Association</h3>
                     </a>
                     <h3 style={{ fontSize: "20px" }}>Frontend Developer | Aug 2025 - Present</h3>
-                    <h4>As a frontend developer on COMPSA's Tech Team, I help design and build digital tools that
-                        support the academic and social needs of Computing students at Queen’s University.
-                    </h4>
+                    <h4>Designing and building digital tools that support the academic and social needs of Computing students at Queen’s University.</h4>
                 </div>
             </div>
             
@@ -32,11 +30,7 @@ function Activities() {
                         <h3>Queen’s Engineering Society</h3>
                     </a>
                     <h3 style={{ fontSize: "20px" }}>Software Developer | Oct 2024 - April 2025</h3>
-                    <h4>As a software developer on ESSDEV, I work with other members of our team in
-                        order to build software projects that aim to solve real world problems within our community.
-                        Through ESSDEV, I have been able to further develop my programming and teamwork skills while
-                        gaining hands-on experience in software development.
-                    </h4>
+                    <h4>Contributed towards software projects that aim to solve real world problems within our school community.</h4>
                 </div>
                 <a href="https://www.engsoc.queensu.ca" target="_blank" rel="noopener noreferrer">
                     <img src={ESSDEV} alt="EngSoc"/>
@@ -52,7 +46,7 @@ function Activities() {
                         <h3>Queen’s Web Development Team</h3>
                     </a>
                     <h3 style={{ fontSize: "20px" }}>Web Developer | Sept 2024 - April 2025</h3>
-                    <h4>As a web developer on QWEB, I design and build websites while collaborating with team members to deliver custom web platforms for client businesses.
+                    <h4>Designed and built websites while collaborating with team members to deliver custom web platforms for client businesses.
                     </h4>
                 </div>
             </div>
@@ -63,8 +57,7 @@ function Activities() {
                         <h3>Queen’s Racing</h3>
                     </a>
                     <h3 style={{ fontSize: "20px" }}>Electrical Member / Programmer | Sept 2024 - April 2025</h3>
-                    <h4>As a programmer on the electrical sub-team, I work on developing code for the various electrical components and systems within our car.
-                        This experience combines programming and engineering concepts into a large-scale group-based project.
+                    <h4>Worked on developing software for the various electrical components and systems within our car.
                     </h4>
                 </div>
                 <a href="https://www.qfsae.ca" target="_blank" rel="noopener noreferrer">
@@ -81,8 +74,7 @@ function Activities() {
                         <h3>First Robotics - Team 9098</h3>
                     </a>
                     <h3 style={{ fontSize: "20px" }}>Lead Programmer | Sept 2022 - Jun 2024</h3>
-                    <h4>As the lead programmer for the programming sub-team, I worked on several projects for our robot, including it’s PID, vision
-                        system, RoboRIO firmware, as well as developing algorithms to maximize our robot’s performance and efficiency. I also trained
+                    <h4>Contributed to developing the robot’s PID, vision system, RoboRIO firmware, and autonomous routines. I also trained
                         other students on the team who were less experienced in programming by teaching coding related concepts and problem-solving techniques.
                     </h4>
                 </div>

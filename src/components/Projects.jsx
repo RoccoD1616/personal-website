@@ -24,7 +24,7 @@ const projects = [
         date: "In Progress",
         image: CompsaApp,
         description: "The official mobile application for Queen's COMPSA  that allows students to access club information, events, and resources.",
-        technologies: ["React Native", "TypeScript"],
+        technologies: ["React Native", "TypeScript", "Supabase"],
         link: "https://github.com/compsa-tech-team/COMPSA-App/tree/main",
         alt: "COMPSA App"
     },
@@ -51,7 +51,7 @@ const projects = [
         date: "02/2025",
         image: NumNum,
         description: "An AI powered dining app that recommends restaurant choices to users based on their preferences, such as location, dietary needs, cuisine, price range and much more.",
-        technologies: ["Python", "Flask"],
+        technologies: ["Python", "Flask", "REST APIs"],
         link: "https://devpost.com/software/numnum",
         alt: "NumNum"
     },
@@ -59,7 +59,7 @@ const projects = [
         title: "Student Buy & Trade",
         date: "04/2025",
         image: StudentBT,
-        description: "Worked with my ESSDEV team to develop a platform where students can easily buy, sell, trade, and donate school items.",
+        description: "Contributed to developing a platform where students can easily buy, sell, trade, and donate school items.",
         technologies: ["HTML", "CSS", "JavaScript", "React"],
         link: "https://github.com/Queens-ESSDEV/Student-BST",
         alt: "Student Buy & Trade"
@@ -68,7 +68,7 @@ const projects = [
         title: "Isabel Balder Club Website",
         date: "04/2025",
         image: IsabelBalderClub,
-        description: "Worked with my QWEB team to develop a website for local theatre club at Queen's University.",
+        description: "Developed a website for a Queen’s University theatre club, providing students with a centralized place to learn about the team and explore upcoming initiatives.",
         technologies: ["HTML", "CSS", "TypeScript", "React"],
         link: "https://github.com/queens-web-development-club/ws25t01-isabeltheatreclub",
         alt: "Isabel Balder Club"
@@ -78,7 +78,7 @@ const projects = [
         date: "05/2025",
         image: Britnell,
         description: "Developed a warehouse inventory optimization system using a frequency-based algorithm to analyze order quantities and improve item placement.",
-        technologies: ["HTML", "CSS", "JavaScript", "Python", "SQL ", "React"],
+        technologies: ["Python", "MySQL ", "React", "Flask", "REST APIs"],
         link: "javascript:void(0)",
         alt: "Warehouse Optimizer"
     },
@@ -87,7 +87,7 @@ const projects = [
         date: "06/2025",
         image: Britnell,
         description: "Built an automated system to generate sales metrics and monitor warehouse performance using APIs.",
-        technologies: ["Python", "SQL"],
+        technologies: ["Python", "MySQL"],
         link: "javascript:void(0)",
         alt: "NSS Generator"
     },
@@ -96,7 +96,7 @@ const projects = [
         date: "07/2025",
         image: Britnell,
         description: "Developed an automated system that calculates daily sales and sends summary reports via email using APIs.",
-        technologies: ["Python", "SQL"],
+        technologies: ["Python", "MySQL"],
         link: "javascript:void(0)",
         alt: "NSS Report Automator"
     },
@@ -114,7 +114,7 @@ const projects = [
         date: "08/2025",
         image: Britnell,
         description: "Built an automated system that emails customers regarding their pending orders and ETAs and logs all order data into internal company records.",
-        technologies: ["Python", "SQL"],
+        technologies: ["Python", "MySQL"],
         link: "javascript:void(0)",
         alt: "Backup Delete Automator"
     }
