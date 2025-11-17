@@ -131,8 +131,9 @@ function Projects() {
                     <div className="tiles">
                         <h4>{item.date}</h4>
                         <h3>{item.title}</h3>
-                        <a href={item.link} target="_blank" rel="noopener noreferrer">
-                            <img src={item.image} alt={item.alt}/>
+                        <a href={item.link} target="_blank" rel="noopener noreferrer" className="image-wrapper">
+                            <img src={item.image} alt={item.alt} />
+                            <span className="learn-more">Learn More</span>
                         </a>
                         <h4 className="tile-description">{item.description}</h4>
                         <div className="tile-list">
