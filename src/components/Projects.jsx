@@ -3,6 +3,7 @@ import "./Projects.css";
 import PersonalWebsite from "../assets/Personal-Website.png";
 import CompsaApp from "../assets/COMPSA-App.jpg";
 import RoomBooking from "../assets/Room-Booking.png";
+import CompsaCCR from "../assets/COMPSA-CCR.png";
 import NumNum from "../assets/NumNum.jpeg";
 import StudentBT from "../assets/Student-BT.jpg";
 import IsabelBalderClub from "../assets/Isabel-Balder-Club.png";
@@ -14,7 +15,7 @@ const projects = [
         date: "07/2025",
         image: PersonalWebsite,
         description: "Created my own personal website where others can learn about me, my experiences, and the skills that I've developed.",
-        technologies: ["HTML", "CSS", "JavaScript", "ReactJS"],
+        technologies: ["HTML", "CSS", "JavaScript", "React"],
         link: "https://github.com/RoccoD1616/personal-website",
         alt: "Rocco DeStefano's Personal Website"
     },
@@ -28,11 +29,20 @@ const projects = [
         alt: "COMPSA App"
     },
     {
+        title: "Computing Clubs Roundtable",
+        date: "In Progress",
+        image: CompsaCCR,
+        description: "A centralized page for COMPSA that lets all major computing clubs share job openings, event updates, and bi-weekly reports in one unified hub.",
+        technologies: ["NextJS", "JavaScript", "Tailwind", "React"],
+        link: "javascript:void(0)",
+        alt: "Computing Clubs Roundtable"
+    },
+    {
         title: "Room Booking",
         date: "08/2025",
         image: RoomBooking,
         description: "A room booking platform that allows CS students at Queen's to reserve study rooms through COMPSA's website.",
-        technologies: ["NextJS", "JavaScript", "TypeScript", "Resend"],
+        technologies: ["NextJS", "JavaScript", "TypeScript", "React", "Resend"],
         link: "https://compsa.ca/room-booking",
         alt: "Room Booking"
     },
@@ -50,7 +60,7 @@ const projects = [
         date: "04/2025",
         image: StudentBT,
         description: "Worked with my ESSDEV team to develop a platform where students can easily buy, sell, trade, and donate school items.",
-        technologies: ["HTML", "CSS", "JavaScript", "ReactJS"],
+        technologies: ["HTML", "CSS", "JavaScript", "React"],
         link: "https://github.com/Queens-ESSDEV/Student-BST",
         alt: "Student Buy & Trade"
     },
@@ -59,7 +69,7 @@ const projects = [
         date: "04/2025",
         image: IsabelBalderClub,
         description: "Worked with my QWEB team to develop a website for local theatre club at Queen's University.",
-        technologies: ["HTML", "CSS", "TypeScript", "ReactJS"],
+        technologies: ["HTML", "CSS", "TypeScript", "React"],
         link: "https://github.com/queens-web-development-club/ws25t01-isabeltheatreclub",
         alt: "Isabel Balder Club"
     },
@@ -68,7 +78,7 @@ const projects = [
         date: "05/2025",
         image: Britnell,
         description: "Developed a warehouse inventory optimization system using a frequency-based algorithm to analyze order quantities and improve item placement.",
-        technologies: ["HTML", "CSS", "JavaScript", "Python", "SQL ", "ReactJS"],
+        technologies: ["HTML", "CSS", "JavaScript", "Python", "SQL ", "React"],
         link: "javascript:void(0)",
         alt: "Warehouse Optimizer"
     },
@@ -124,7 +134,7 @@ function Projects() {
                         <a href={item.link} target="_blank" rel="noopener noreferrer">
                             <img src={item.image} alt={item.alt}/>
                         </a>
-                        <h4>{item.description}</h4>
+                        <h4 className="tile-description">{item.description}</h4>
                         <div className="tile-list">
                             {item.technologies.map((tech, i) => (
                                 <h4 key={i}>{tech}</h4>

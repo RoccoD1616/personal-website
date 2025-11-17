@@ -32,11 +32,11 @@ function About() {
                         <h4>CSS</h4>
                         <h4>JavaScript</h4>
                         <h4>TypeScript</h4>
-                        <h4>PHP</h4>
+                        <h4>Tailwind</h4>
                         <h4>SQL</h4>
-                        <h4>ReactJS</h4>
+                        <h4>React</h4>
                         <h4>React Native</h4>
-                        <h4>NextJS</h4>
+                        <h4>Next.js</h4>
                         <h4>GitHub</h4>
                     </div>
                 </div>
