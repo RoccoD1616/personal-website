@@ -34,7 +34,7 @@ const projects = [
         image: CompsaCCR,
         description: "A centralized page for COMPSA that lets all major computing clubs share job openings, event updates, and bi-weekly reports in one unified hub.",
         technologies: ["NextJS", "JavaScript", "Tailwind", "React"],
-        link: "javascript:void(0)",
+        link: "https://compsa.ca/ccr",
         alt: "Computing Clubs Roundtable"
     },
     {
