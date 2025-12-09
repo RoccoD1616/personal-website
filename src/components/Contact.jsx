@@ -24,7 +24,7 @@ const contacts = [
     {
         image: LinkedIn,
         title: "LinkedIn",
-        link: "https://www.linkedin.com/in/rocco-destefano-908a7932a/",
+        link: "https://www.linkedin.com/in/rocco-destefano0819/",
         info: "LinkedIn Profile",
         alt: "LinkedIn"
     },

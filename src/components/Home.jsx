@@ -15,7 +15,7 @@ function Home() {
         </h3>
         
         <div className="icons">
-            <a href="https://www.linkedin.com/in/rocco-destefano-908a7932a/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/rocco-destefano0819/" target="_blank" rel="noopener noreferrer">
                 <img src={LinkedIn_Icon} alt="LinkedIn"/>
             </a>
             <a href="https://github.com/RoccoD1616" target="_blank" rel="noopener noreferrer">
