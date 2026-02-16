@@ -20,15 +20,6 @@ const projects = [
         alt: "COMPSA App"
     },
     {
-        title: "Computing Clubs Roundtable",
-        date: "In Progress",
-        image: CompsaCCR,
-        description: "A centralized page for COMPSA that lets all major computing clubs share job openings, event updates, and bi-weekly reports in one unified hub.",
-        technologies: ["NextJS", "JavaScript", "Tailwind", "React"],
-        link: "https://compsa.ca/ccr",
-        alt: "Computing Clubs Roundtable"
-    },
-    {
         title: "VoiceCare AI",
         date: "02/2026",
         image: VoiceCareAI,
@@ -36,6 +27,15 @@ const projects = [
         technologies: ["HTML", "CSS", "JavaScript", "Gemini API", "Gradium"],
         link: "https://github.com/NigelGroen5/voicecare-AI",
         alt: "VoiceCare AI"
+    },
+    {
+        title: "Computing Clubs Roundtable",
+        date: "12/2025",
+        image: CompsaCCR,
+        description: "A centralized page for COMPSA that lets all major computing clubs share job openings, event updates, and bi-weekly reports in one unified hub.",
+        technologies: ["NextJS", "JavaScript", "Tailwind", "React"],
+        link: "https://compsa.ca/ccr",
+        alt: "Computing Clubs Roundtable"
     },
     {
         title: "Room Booking",
