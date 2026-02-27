@@ -8,6 +8,7 @@ import NumNum from "../assets/NumNum.jpeg";
 import IsabelBalderClub from "../assets/Isabel-Balder-Club.png";
 import Britnell from "../assets/Britnell-Logo.png";
 import VoiceCareAI from "../assets/VoiceCare-AI.jpeg";
+import CompsaLLM from "../assets/COMPSA-LLM.png";
 
 const projects = [
     {
@@ -18,6 +19,15 @@ const projects = [
         technologies: ["React Native", "TypeScript", "Supabase"],
         link: "https://github.com/compsa-tech-team/COMPSA-App/tree/main",
         alt: "COMPSA App"
+    },
+    {
+        title: "COMPSA Assistant",
+        date: "02/2026",
+        image: CompsaLLM,
+        description: "An AI-powered assistant for the Queen’s COMPSA website that centralizes computing-related academic information and answers student questions in one place.",
+        technologies: ["NextJS", "JavaScript", "TypeScript", "React", "Resend"],
+        link: "https://compsa.ca/llm",
+        alt: "COMPSA Assistant"
     },
     {
         title: "VoiceCare AI",
