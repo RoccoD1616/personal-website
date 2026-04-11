@@ -19,7 +19,7 @@ function Activities() {
                     <a href="https://compsa.ca" target="_blank" rel="noopener noreferrer">
                         <h3>Queen's Computing Students' Association</h3>
                     </a>
-                    <h3 style={{ fontSize: "20px" }}>Frontend Developer | Aug 2025 - Present</h3>
+                    <h3 style={{ fontSize: "20px" }}>Frontend Developer | Aug 2025 - April 2026</h3>
                     <h4>Designing and building digital tools that support the academic and social needs of Computing students at Queen’s University.</h4>
                 </div>
             </div>

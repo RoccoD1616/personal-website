@@ -13,7 +13,7 @@ import CompsaLLM from "../assets/COMPSA-LLM.png";
 const projects = [
     {
         title: "COMPSA App",
-        date: "In Progress",
+        date: "04/2026",
         image: CompsaApp,
         description: "The official mobile application for Queen's COMPSA  that allows students to access club information, events, and resources.",
         technologies: ["React Native", "TypeScript", "Supabase"],
