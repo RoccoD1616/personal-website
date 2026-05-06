@@ -2,6 +2,13 @@ import "./Portfolio.css";
 
 const workExperience = [
   {
+    title: "Business Analyst / Software Developer",
+    date: "May 2026 – Present",
+    company: "RBC",
+    description: "Working with development teams to support internal software solutions and automation initiatives at RBC. Collaborating on technical projects focused on improving workflows, systems, and operational efficiency.",
+    website: "https://www.rbcroyalbank.com"
+  },
+  {
     title: "Technology Operator",
     date: "April 2025 – Aug 2025",
     company: "Britnell Ventures Inc.",

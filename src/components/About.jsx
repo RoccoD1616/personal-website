@@ -27,12 +27,11 @@ function About() {
                         <h4>Python</h4>
                         <h4>Java</h4>
                         <h4>C</h4>
-                        <h4>C++</h4>
                         <h4>JavaScript</h4>
                         <h4>TypeScript</h4>
+                        <h4>SQL</h4>
                         <h4>HTML</h4>
                         <h4>CSS</h4>
-                        <h4>SQL</h4>
                     </div>
                 </div>
 
@@ -53,12 +52,10 @@ function About() {
                         <h4>React</h4>
                         <h4>Next.js</h4>
                         <h4>React Native</h4>
-                        <h4>Tailwind CSS</h4>
-                        <h4>Flask</h4>
                         <h4>Git & GitHub</h4>
                         <h4>REST APIs</h4>
                         <h4>MySQL</h4>
-                        <h4>Supabase</h4>
+                        <h4>MongoDB</h4>
                         <h4>Resend</h4>
                     </div>
                 </div>
