@@ -19,17 +19,40 @@
     gap: 50px;
 }
 
-.title-and-date,
+.company-and-date,
 .border,
-.company-and-description {
+.title-and-description {
     flex-shrink: 0;
 }
 
-.title-and-date {
+.company-and-date {
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.company-and-description {
+.company-and-date h3 {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.company-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.company-logo img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: white;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.title-and-description {
     flex: 1;
     text-align: left;
     line-height: 1.5;
@@ -57,21 +80,6 @@
     border-radius: 50%;
 }
 
-.company-link {
-    text-decoration: none;
-}
-  
-.company-link .company-name {
-    color: black;
-    text-align: left;
-    transition: color 0.2s ease, font-size 0.2s ease;
-}
-  
-.company-link:hover .company-name {
-    color: rgb(255, 153, 51);
-    font-size: 27px;
-}
-
 .education {
     font-size: 40px;
     line-height: 0;
@@ -86,7 +94,7 @@
     }
 
     .portfolio-container h3.description {
-        font-size: 25px; margin-bottom: 30px;
+        font-size: 25px; margin-bottom: 50px;
     }
   
     .entry-content {
@@ -105,16 +113,25 @@
         font-size: 16px;
     }
 
-    .title-and-date {
+    .company-and-date {
         margin-left: 50px;
     }
 
-    .title-and-date h3,
-    .title-and-date h4 {
-        text-align: left;
+    .company-and-date h3 {
+        font-size: 18px;
+        margin-bottom: -10px;
+    }
+
+    .company-logo img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 20px;
+        background-color: white;
+        transition: transform 0.2s ease, filter 0.2s ease;
     }
   
-    .company-and-description,
+    .title-and-description,
     .education-and-description {
       margin-left: 50px;
     }
@@ -142,7 +159,7 @@
 
     .education {
       margin-top: 75px;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
       font-size: 25px;
     }
   }

@@ -1,17 +1,22 @@
 import "./Portfolio.css";
 
+import RBC from "../assets/RBC Logo.jpg"
+import Britnell from "../assets/Britnell-Logo.png"
+
+import Queens from "../assets/Queens-Logo.jpg"
+
 const workExperience = [
   {
     title: "Business Analyst / Software Developer",
     date: "May 2026 – Present",
-    company: "RBC",
+    company: RBC,
     description: "Working with development teams to support internal software solutions and automation initiatives at RBC. Collaborating on technical projects focused on improving workflows, systems, and operational efficiency.",
     website: "https://www.rbcroyalbank.com"
   },
   {
     title: "Technology Operator",
     date: "April 2025 – Aug 2025",
-    company: "Britnell Ventures Inc.",
+    company: Britnell,
     description: "As an intern at Britnell, I work on developing software systems that aim to enhance workplace efficiency by optimizing internal systems and workflows. I collaborate closely with different departments to understand their needs in order to create tools that streamline repetitive tasks and improve data accessibility. By automating key functions and improving internal tools, my role helps other divisions work more effectively and productively.",
     website: "https://www.britnell.com"
   },
@@ -21,7 +26,7 @@ const education = [
   {
     degree: "Bachelor of Computing (Honours), Specialization - Software Design",
     date: "Sept 2024 – June 2028",
-    school: "Queen's University",
+    school: Queens,
     description: "As a Computing student specializing in Software Design at Queen’s University, I am learning the fundamentals of programming as well as many of the advanced principles of computing."
   },
 ]
@@ -36,19 +41,21 @@ function Portfolio() {
         {workExperience.map((item, index) => (
           <div className="timeline-entry" key={index}>
           <div className="entry-content">
-            <div className="title-and-date">
-              <h3 style={{ color: "black" }}>{item.title}</h3>
-              <h4 style={{ color: "black" }}>{item.date}</h4>
+            <div className="company-and-date">
+              <div className="company-logo">
+                <a href={item.website} target="_blank" rel="noopener noreferrer">
+                  <img src={item.company} alt={item.website}/>
+                </a>
+              </div>
+              <h3 style={{ color: "black" }}>{item.date}</h3>
             </div>
         
             <div className="border">
               <div className="dot"></div>
             </div>
         
-            <div className="company-and-description">
-            <a className="company-link" href={item.website} target="_blank" rel="noopener noreferrer">
-              <h3 className="company-name">{item.company}</h3>
-            </a>
+            <div className="title-and-description">
+              <h3 style={{ color: "black", textAlign: "left" }}>{item.title}</h3>
               <h4 style={{ color: "black", textAlign: "left" }}>{item.description}</h4>
             </div>
           </div>
@@ -61,9 +68,13 @@ function Portfolio() {
         {education.map((item, index) => (
           <div className="timeline-entry" key={index}>
           <div className="entry-content">
-            <div className="title-and-date">
-              <h3 style={{ color: "black" }}>{item.degree}</h3>
-              <h4 style={{ color: "black" }}>{item.date}</h4>
+            <div className="company-and-date">
+            <div className="company-logo">
+                <a href={item.website} target="_blank" rel="noopener noreferrer">
+                  <img src={item.school} alt={item.website}/>
+                </a>
+              </div>
+              <h3 style={{ color: "black" }}>{item.date}</h3>
             </div>
         
             <div className="education-border">
@@ -71,7 +82,7 @@ function Portfolio() {
             </div>
         
             <div className="education-and-description">
-              <h3 style={{ color: "black", textAlign: "left" }}>{item.school}</h3>
+              <h3 style={{ color: "black", textAlign: "left" }}>{item.degree}</h3>
               <h4 style={{ color: "black", textAlign: "left" }}>{item.description}</h4>
             </div>
           </div>

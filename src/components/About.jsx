@@ -50,12 +50,16 @@ function About() {
                 <h3>Technologies</h3>
                     <div className="card-list">
                         <h4>React</h4>
+                        <h4>Node.js</h4>
                         <h4>Next.js</h4>
+                        <h4>Vue.js</h4>
                         <h4>React Native</h4>
                         <h4>Git & GitHub</h4>
                         <h4>REST APIs</h4>
-                        <h4>MySQL</h4>
                         <h4>MongoDB</h4>
+                        <h4>MySQL</h4>
+                        <h4>Tailwind</h4>
+                        <h4>Flask</h4>
                         <h4>Resend</h4>
                     </div>
                 </div>
