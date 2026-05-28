@@ -144,12 +144,12 @@ const experience = [
   {
     role: "Technology Operator",
     company: "Britnell",
-    date: "April 2025 – Aug 2025",
+    date: "April 2025 – April 2026",
     description:
-      "As an intern at Britnell, I worked on developing software systems that enhance workplace efficiency by optimizing internal systems and workflows. I collaborated with different departments to create tools that streamline repetitive tasks and improve data accessibility.",
+      "Developed software and automation systems that improved internal workflows, streamlined repetitive tasks, and made company data more accessible across departments. I worked at Britnell as a full-time summer intern from April 2025 to August 2025, then continued part-time during the school year from September 2025 to April 2026.",
     website: "https://www.britnell.com",
     logo: Britnell_Logo,
-  },
+  }
 ];
 
 const activities = [
