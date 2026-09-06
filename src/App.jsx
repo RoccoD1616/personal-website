@@ -12,7 +12,6 @@ import VoiceCare_AI from "../src/assets/dark/VoiceCare-AI.jpeg";
 import COMPSA_CCR from "../src/assets/dark/COMPSA-CCR.png";
 import Room_Booking from "../src/assets/dark/Room-Booking.png";
 import Personal_Website from "../src/assets/dark/Personal-Website.png";
-import Britnell_Logo_2 from "../src/assets/dark/Britnell-Logo-2.png";
 import Isabel_Balder_Club from "../src/assets/dark/Isabel-Balder-Club.png";
 import NumNum from "../src/assets/dark/NumNum.jpeg";
 
@@ -72,46 +71,6 @@ const projects = [
     image: Personal_Website,
   },
   {
-    title: "Pending & Partial Automator",
-    date: "08/2025",
-    description:
-      "Built an automated system that emails customers regarding their pending orders and ETAs and logs all order data into internal company records.",
-    technologies: ["Python", "MySQL"],
-    image: Britnell_Logo_2,
-  },
-  {
-    title: "Backup Delete Automator",
-    date: "08/2025",
-    description:
-      "Implemented a storage management system that optimizes server capacity by automatically removing outdated backups.",
-    technologies: ["Python"],
-    image: Britnell_Logo_2,
-  },
-  {
-    title: "NSS Report Automator",
-    date: "07/2025",
-    description:
-      "Developed an automated system that calculates daily sales and sends summary reports via email using APIs.",
-    technologies: ["Python", "MySQL"],
-    image: Britnell_Logo_2,
-  },
-  {
-    title: "NSS Generator",
-    date: "06/2025",
-    description:
-      "Built an automated system to generate sales metrics and monitor warehouse performance using APIs.",
-    technologies: ["Python", "MySQL"],
-    image: Britnell_Logo_2,
-  },
-  {
-    title: "Warehouse Optimizer",
-    date: "05/2025",
-    description:
-      "Developed a warehouse inventory optimization system using a frequency-based algorithm to analyze order quantities and improve item placement.",
-    technologies: ["Python", "MySQL", "React", "Flask", "REST APIs"],
-    image: Britnell_Logo_2,
-  },
-  {
     title: "Isabel Balder Club Website",
     date: "04/2025",
     description:
@@ -135,9 +94,9 @@ const experience = [
   {
     role: "Business Analyst / Software Developer",
     company: "RBC",
-    date: "May 2026 – Present",
+    date: "May 2026 – Aug 2026",
     description:
-      "Working with development teams to support internal software solutions and automation initiatives at RBC. Collaborating on technical projects focused on improving workflows, systems, and operational efficiency.",
+      "Developed internal software and automation solutions that streamlined complex business processes and reduced manual workflows. Contributed across full software development lifecycles, from translating business requirements and designing workflows to development, testing, QA, code review, and deployment.",
     website: "https://www.rbcroyalbank.com",
     logo: RBC_Logo,
   },
@@ -196,11 +155,11 @@ const activities = [
 ];
 
 const current = [
-  "TypeScript",
-  "Node.js",
   "Vue.js",
-  "SQL",
+  "Node.js",
+  "TypeScript",
   "MongoDB",
+  "Playwright",
 ];
 
 const languages = [
@@ -225,8 +184,10 @@ const technologies = [
   "MongoDB",
   "MySQL",
   "Tailwind",
+  "Playwright",
   "Flask",
   "Resend",
+  "Lucid",
 ];
 
 function Navbar() {
@@ -291,7 +252,7 @@ function App() {
             <p className="small-label">Software Design @ Queen’s University</p>
             <h1>Rocco DeStefano</h1>
             <p>
-              I build practical web, automation, and data-driven tools that make workflows easier to understand and faster to use.
+              Software developer focused on creating digital tools to solve real-world challenges.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">View Projects</a>
@@ -299,7 +260,7 @@ function App() {
             </div>
           </div>
           <aside className="hero-panel">
-            <p>Currently</p>
+            <p>Previous</p>
             <h2>Business Analyst / Software Developer</h2>
             <h3>RBC</h3>
             <div className="skill-list">
