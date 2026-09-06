@@ -182,10 +182,8 @@ const technologies = [
   "Git & GitHub",
   "REST APIs",
   "MongoDB",
-  "MySQL",
   "Tailwind",
   "Playwright",
-  "Flask",
   "Resend",
   "Lucid",
 ];
