@@ -160,6 +160,7 @@ const current = [
   "TypeScript",
   "MongoDB",
   "Playwright",
+  "Azure",
 ];
 
 const languages = [
@@ -184,6 +185,7 @@ const technologies = [
   "MongoDB",
   "Tailwind",
   "Playwright",
+  "Azure",
   "Resend",
   "Lucid",
 ];
