@@ -167,6 +167,7 @@ const languages = [
   "Python",
   "Java",
   "C",
+  "C++",
   "JavaScript",
   "TypeScript",
   "SQL",
