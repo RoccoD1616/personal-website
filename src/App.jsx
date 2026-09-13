@@ -188,7 +188,7 @@ const technologies = [
   "Playwright",
   "Azure",
   "Resend",
-  "Lucid",
+  "Lucidchart",
 ];
 
 function Navbar() {
