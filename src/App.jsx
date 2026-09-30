@@ -184,6 +184,8 @@ const technologies = [
   "Git & GitHub",
   "REST APIs",
   "MongoDB",
+  "Linux",
+  "Bash",
   "Tailwind",
   "Playwright",
   "Azure",
