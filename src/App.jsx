@@ -17,6 +17,16 @@ import NumNum from "../src/assets/dark/NumNum.jpeg";
 
 const projects = [
   {
+    title: "2D Game Engine & Multiplayer Game",
+    date: "In Progress",
+    description:
+      "A planned modular C++ engine for building top-down 2D games, with a multiplayer game designed to demonstrate its capabilities.",
+    technologies: ["C++", "SDL3", "CMake"],
+    link: null,
+    image: null,
+    placeholder: "In Progress",
+  },
+  {
     title: "COMPSA App",
     date: "04/2026",
     description:
@@ -225,7 +235,14 @@ function ProjectCard({ project }) {
         {project.image ? (
           <img src={project.image} alt={`${project.title} preview`} />
         ) : (
-          <div className="project-placeholder">{project.title.slice(0, 2)}</div>
+          <div className="project-coming-soon">
+            <span className="project-coming-soon-title">
+              {project.placeholder || "Coming Soon"}
+            </span>
+            <span className="project-coming-soon-subtitle">
+              {project.title}
+            </span>
+          </div>
         )}
       </div>
       <div className="project-content">
