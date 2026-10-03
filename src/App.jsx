@@ -200,6 +200,8 @@ const technologies = [
   "Playwright",
   "Azure",
   "Resend",
+  "SDL3",
+  "CMake",
   "Lucidchart",
 ];
 
