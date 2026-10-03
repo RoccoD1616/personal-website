@@ -192,6 +192,7 @@ const technologies = [
   "Vue.js",
   "React Native",
   "Git & GitHub",
+  "GitHub Copilot",
   "GitHub Actions",
   "REST APIs",
   "MongoDB",
