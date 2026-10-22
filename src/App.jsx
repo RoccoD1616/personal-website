@@ -200,7 +200,6 @@ const technologies = [
   "Bash",
   "Tailwind",
   "Playwright",
-  "Azure",
   "Resend",
   "SDL3",
   "CMake",
