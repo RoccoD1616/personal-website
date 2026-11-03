@@ -193,6 +193,8 @@ const technologies = [
   "Git & GitHub",
   "GitHub Copilot",
   "GitHub Actions",
+  "Jira",
+  "Confluence",
   "REST APIs",
   "MongoDB",
   "Linux",
