@@ -273,7 +273,7 @@ function App() {
       <main id="home">
         <section className="hero section-shell">
           <div className="hero-copy">
-            <p className="small-label">Software Design @ Queen’s University</p>
+            <p className="small-label">Computer Science @ Queen’s University</p>
             <h1>Rocco DeStefano</h1>
             <p>
               Software developer focused on creating digital tools to solve real-world challenges.
