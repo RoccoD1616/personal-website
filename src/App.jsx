@@ -17,16 +17,6 @@ import NumNum from "../src/assets/dark/NumNum.jpeg";
 
 const projects = [
   {
-    title: "2D Game Engine & Multiplayer Game",
-    date: "In Progress",
-    description:
-      "A planned modular C++ engine for building top-down 2D games, with a multiplayer game designed to demonstrate its capabilities.",
-    technologies: ["C++", "SDL3", "CMake"],
-    link: null,
-    image: null,
-    placeholder: "In Progress",
-  },
-  {
     title: "COMPSA App",
     date: "04/2026",
     description:
@@ -184,6 +174,16 @@ const languages = [
   "CSS",
 ];
 
+const technicalSkills = [
+  "Full-Stack Development",
+  "QA Testing",
+  "Automation",
+  "API Integration",
+  "Mobile Development",
+  "Data Pipelines",
+  "CI/CD Pipelines",
+];
+
 const technologies = [
   "React",
   "Node.js",
@@ -202,8 +202,6 @@ const technologies = [
   "Tailwind",
   "Playwright",
   "Resend",
-  "SDL3",
-  "CMake",
   "Lucidchart",
 ];
 
@@ -299,10 +297,11 @@ function App() {
               I'm a Queen’s University Computer Science student with hands-on experience in full-stack development, automation scripting, and data-driven applications. Seeking opportunities to contribute to impactful projects while expanding my technical skills and collaborating with innovative teams.
             </SectionIntro>
 
-            <div className="about-highlights">
-              <span>Full-Stack Development</span>
-              <span>Automation Systems</span>
-              <span>Data-Driven Tools</span>
+            <div className="about-card skills-card technical-card">
+              <h3>Technical</h3>
+              <div className="about-highlights">
+                {technicalSkills.map((skill) => <span key={skill}>{skill}</span>)}
+              </div>
             </div>
           </div>
 
