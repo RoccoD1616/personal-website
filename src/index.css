@@ -613,6 +613,7 @@ p {
   }
 
   .headshot-card {
+    justify-self: center;
     min-height: 430px;
     aspect-ratio: 3 / 4;
   }
